@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1 class="title">Simple calculatot</h1>
+	<div class="calc-cont">
+		<div class="textpole"></div>
+		<div class="block-but">
+			<div class="button button1" onclick="clicker('1')">1</div>
+			<div class="button button2" onclick="clicker('2')">2</div>
+			<div class="button button3" onclick="clicker('3')">3</div>
+			<div class="button buttondel" onclick="delet('')">C</div>
+			<div class="button button4" onclick="clicker('4')">4</div>
+			<div class="button button5" onclick="clicker('5')">5</div>
+			<div class="button button6" onclick="clicker('6')">6</div>
+			<div class="button buttonP" onclick="sign('+')">+</div>
+			<div class="button button7" onclick="clicker('7')">7</div>
+			<div class="button button8" onclick="clicker('8')">8</div>
+			<div class="button button9" onclick="clicker('9')">9</div>
+			<div class="button buttonM" onclick="sign('-')">-</div>
+			<div class="button button0" onclick="clicker('0')">0</div>
+			<div class="button buttonU" onclick="sign('*')">*</div>
+			<div class="button buttonD" onclick="sign(' / ')">/</div>
+			<div class="button buttonPoint" onclick="clicker('.')">.</div>
+			<div class="button buttonRow" onclick="answer()">=</div>
+
+		</div>
+	</div>
+	
+	<script src="script.js"></script>
+</body>
+</html>
